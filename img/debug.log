@@ -1,0 +1,7 @@
+[0317/015428.837:WARNING:angle_platform_impl.cc(52)] compileToBinary(230): 
+C:\fakepath(77,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(99,10-42): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0321/143755.128:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0321/181758.951:ERROR:browser_gpu_channel_host_factory.cc(139)] Failed to launch GPU process.
+[0322/015903.010:INFO:CONSOLE(1)] "Long rAF frame-time", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-rich-tooltips/build/external.js (1)

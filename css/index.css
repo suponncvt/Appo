@@ -1,0 +1,1518 @@
+/* Google Font Dosis Import */
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;700&display=swap");
+
+/* Global CSS */
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Dosis", sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.heading {
+  color: #fff;
+  font-size: 50px;
+  display: block;
+  margin: 150px auto 50px;
+  font-weight: normal;
+}
+
+/* .sub-heading{
+
+} */
+
+.pg {
+  color: #fff;
+  font-size: 22px;
+  margin: 0 auto;
+}
+
+/* =============Header============ */
+header {
+  width: 100%;
+  float: left;
+  background: #223047;
+  border-bottom: 1px solid #777;
+  padding: 10px 0;
+}
+
+.logo-part {
+  width: 25%;
+  float: left;
+}
+
+.logo-part a {
+  color: #00fff0;
+  font-size: 42px;
+  margin: 0 20px;
+  font-weight: 500;
+}
+
+.logo-part sup {
+  font-size: 20px;
+}
+
+.menu-part {
+  width: 50%;
+  float: left;
+  padding: 10px 0;
+}
+
+.menu-part ul {
+  text-align: center;
+}
+
+.menu-part li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.menu-part li a {
+  font-size: 24px;
+  color: #fff;
+  margin: 0;
+}
+
+.btn-part {
+  width: 25%;
+  float: left;
+  text-align: end;
+  padding: 10px 0;
+}
+
+.btn-part a button {
+  border: none;
+  background: #00fff1;
+  width: 70%;
+  padding: 7px;
+  border-radius: 10px;
+  font-size: 20px;
+  float: left;
+  cursor: pointer;
+}
+
+.btn-part a button:hover {
+  color: #fff;
+  background: blue;
+}
+
+.menu {
+  width: 30%;
+  float: left;
+}
+
+.btn-part i {
+  color: #fff;
+  font-size: 32px;
+  margin: 4px 40px 0 0;
+  cursor: pointer;
+}
+
+.btn-part i:hover {
+  color: greenyellow;
+}
+
+/* =============Hero============ */
+#hero {
+  width: 100%;
+  float: left;
+  background: #223047;
+  margin-bottom: px;
+}
+
+.hero-writing-part {
+  width: 50%;
+  float: left;
+}
+
+.hero-btn {
+  margin: 50px auto;
+}
+
+.btn-deep {
+  border: none;
+  background: #00fff1;
+  width: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-deep:hover {
+  color: #fff;
+  background: none;
+  border: 1px solid #fff;
+}
+
+.btn-light {
+  border: 1px solid #fff;
+  background: none;
+  color: #fff;
+  width: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-light:hover {
+  background-color: #00fff1;
+  color: black;
+}
+
+.hero-img-part {
+  width: 50%;
+  float: left;
+}
+
+.hero-img-part img {
+  margin: 100px 150px;
+  margin-bottom: -100px;
+}
+
+/* =============Feature============ */
+#feature {
+  width: 100%;
+  background: #ffffff;
+}
+
+.feature-writing-part {
+  width: 100%;
+  float: left;
+}
+
+.feature-writing-part h2 {
+  width: 40%;
+  text-align: center;
+  color: #233148;
+}
+
+.underline {
+  display: block;
+  background: #00fff0;
+  border: 1px solid #00fff0;
+  border-radius: 5px;
+  width: 10%;
+  height: 5px;
+  margin: 0 auto;
+}
+
+.feature-box-part {
+  width: 100%;
+  float: left;
+  margin: 50px 0 100px;
+}
+
+.container-two {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.feature-box {
+  width: 23%;
+  margin: 0 1%;
+  float: left;
+  box-shadow: 1px 1px 5px #ece9e9, 2px 2px 2px #ece9e9;
+  border-radius: 5px;
+}
+
+.feature-box img {
+  width: 40%;
+  display: block;
+  margin: 40px auto;
+}
+
+.feature-box h2 {
+  color: #5c6572;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 26px;
+}
+
+.feature-box p {
+  color: #a0a3a8;
+  text-align: center;
+  font-size: 16px;
+  margin: 20px;
+  font-weight: 500;
+}
+
+/* =============Info============ */
+#info {
+  width: 100%;
+  float: left;
+  height: 600px;
+}
+
+.info-color {
+  width: 50%;
+  float: left;
+  height: 600px;
+  background: #323a4d;
+}
+
+.info-writing {
+  width: 50%;
+  float: left;
+}
+
+.info-writing h2 {
+  width: 80%;
+  color: #233148;
+  margin: 100px 80px 60px;
+}
+
+.info-writing p {
+  color: #a0a3a8;
+  width: 80%;
+  font-size: 22px;
+  margin: 20px 80px;
+  font-weight: 500;
+}
+
+/* =============Description============ */
+#description {
+  width: 100%;
+  float: left;
+}
+
+.desc-first-part {
+  width: 100%;
+  float: left;
+}
+
+.desc-first-part-writing {
+  width: 50%;
+  float: left;
+  text-align: end;
+  padding-right: 50px;
+}
+
+.desc-first-part-writing h2 {
+  color: #233148;
+  text-align: end;
+}
+
+.desc-first-part-writing p {
+  color: #233148;
+  text-align: end;
+  font-size: 20px;
+}
+
+.desc-first-part-writing button {
+  margin: 30px 0;
+}
+.desc-first-part-writing button:hover {
+  background: lightblue;
+  color: black;
+}
+
+.desc-first-part-img {
+  width: 50%;
+  float: left;
+}
+
+.desc-first-part-img img {
+  margin: 150px 0 100px 0;
+}
+
+.desc-second-part {
+  width: 100%;
+  float: left;
+  z-index: 1;
+}
+
+.desc-second-part-img {
+  width: 50%;
+  float: left;
+}
+
+.desc-second-part-img img {
+  z-index: 1;
+  position: relative;
+  top: 65px;
+}
+
+.desc-second-part-writing {
+  width: 50%;
+  float: left;
+}
+
+.part-one {
+  box-shadow: 0px 0px 3px #05040457;
+  padding: 30px;
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+
+.part-one img {
+  font-size: 25px;
+}
+
+.part-one h3 {
+  display: inline-block;
+  font-size: 32px;
+  margin: 0px 23px;
+}
+
+.part-two {
+  box-shadow: 0px 0px 3px #05040457;
+  padding: 30px;
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+
+.part-two img {
+  font-size: 25px;
+  margin-bottom: -6px;
+}
+
+.part-two h3 {
+  font-size: 28px;
+  display: inline-block;
+  margin: 0 36px;
+}
+
+.part-two p {
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 55px;
+  font-weight: 500;
+}
+
+.part-one:hover,
+.part-two:hover {
+  background: #00fff0;
+  cursor: pointer;
+}
+
+/* =============Description Third Part============ */
+#desc-third-part {
+  width: 100%;
+  float: left;
+  background: #f5f6fa;
+  z-index: 0;
+}
+
+.desc-third-part-writing {
+  width: 50%;
+  float: left;
+  text-align: end;
+}
+
+.desc-third-part-writing h2 {
+  color: #233148;
+  margin: 120px 0px 20px;
+}
+
+.desc-third-part-writing div {
+  font-size: 20px;
+}
+
+.desc-third-part-writing div i {
+  padding: 10px 0;
+  color: #00fff1;
+}
+
+.desc-third-part-writing p {
+  padding-top: 20px;
+  font-size: 18px;
+  margin-left: 50px;
+}
+
+.desc-third-part-box {
+  width: 50%;
+  float: left;
+  height: 500px;
+}
+
+.container-five {
+  width: 100%;
+  margin: auto;
+}
+
+.container-seven {
+  width: 75%;
+  margin: auto;
+}
+
+.color-one {
+  width: 20%;
+  float: left;
+  height: 300px;
+  background: #fff;
+  margin: 200px 0;
+  box-shadow: 0px 0px 5px rgb(136, 102, 102);
+}
+
+.color-two {
+  width: 30%;
+  float: left;
+  height: 400px;
+  background: #000;
+  margin: 100px 0;
+  box-shadow: 0px 0px 5px rgb(136, 102, 102);
+}
+
+.color-three {
+  width: 20%;
+  float: left;
+  height: 280px;
+  background: #fff;
+  margin: 220px 0;
+  box-shadow: 0px 0px 5px rgb(136, 102, 102);
+}
+
+/* =============Play============ */
+#play {
+  width: 100%;
+  float: left;
+  background: #223047;
+}
+
+.container-six {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container-six button {
+  background: transparent;
+}
+
+.container-six i {
+  color: #00fff0;
+  font-size: 90px;
+  margin-top: 100px;
+  cursor: pointer;
+}
+
+.container-six i:hover {
+  color: cornflowerblue;
+}
+
+.container-six h1 {
+  font-size: 50px;
+  color: #fff;
+  margin-top: 30px;
+}
+
+.container-six p {
+  font-size: 20px;
+  color: #fff;
+  margin: 30px 0 100px;
+}
+
+/* =============Join============ */
+#join {
+  width: 100%;
+  float: left;
+  background: #fff;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+#join h1 {
+  padding-top: 100px;
+  font-size: 40px;
+}
+
+#join h2 {
+  padding: 40px 0px 80px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#join button {
+  background: #00fff1;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 24px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+#join button:hover {
+  background: #223047;
+  color: #fff;
+}
+
+/* =============Paragraph============ */
+#paragraph {
+  width: 100%;
+  float: left;
+  background: #223047;
+  padding: 150px;
+}
+
+#paragraph p {
+  font-size: 26px;
+  color: #fff;
+  text-align: center;
+}
+
+/* =============App============ */
+#app {
+  width: 100%;
+  float: left;
+  background: #f5f6fa;
+}
+
+.app-row-one {
+  width: 100%;
+  float: left;
+}
+
+.app-row-one-img-part {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+.app-row-one-img-part button {
+  background: #f5f6fa;
+  box-shadow: none;
+}
+
+.app-row-one-img-part img {
+  margin: 40px 0px;
+  background: #f5f6fa;
+  box-shadow: none;
+}
+
+.app-row-one-writing-part {
+  width: 50%;
+  float: left;
+}
+
+.app-row-one-writing-part h1 {
+  font-size: 50px;
+  margin-top: 200px;
+}
+
+.app-row-one-writing-part p {
+  font-size: 20px;
+  margin: 20px 0px 40px;
+}
+
+.app-row-one-writing-part img {
+  padding: 10px 10px 10px 0;
+  cursor: pointer;
+}
+
+.app-row-two {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+
+.app-row-two button {
+  font-size: 26px;
+  padding: 20px 80px;
+  background: #00fff0;
+  margin-bottom: -50px;
+  z-index: 1;
+  position: relative;
+  top: 15px;
+  cursor: pointer;
+}
+
+.app-row-two button:hover {
+  background: brown;
+  color: #00fff0;
+  transition: ease 0.5s;
+}
+
+/* =============Menu============ */
+#menu {
+  width: 100%;
+  float: left;
+  background: #fff;
+  z-index: 0;
+}
+
+.menu-part-one {
+  width: 100%;
+  float: left;
+  margin: 80px 0;
+}
+
+.menu-part-list {
+  width: 18%;
+  float: left;
+  margin: 0 1%;
+}
+
+.menu-part-list h3 {
+  font-size: 24px;
+  padding: 10px 0px;
+}
+
+.menu-part-list p {
+  font-size: 20px;
+  padding: 10px 0px;
+}
+
+.menu-part-list a {
+  color: #000;
+}
+
+.menu-writing-part {
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.menu-writing-part h1 {
+  font-size: 50px;
+}
+
+.menu-writing-part p {
+  font-size: 24px;
+  margin: 20px 0px 80px;
+}
+
+.menu-writing-part input {
+  width: 50%;
+  background: #dee0e9;
+  padding: 15px 0px;
+  margin: 0px 1%;
+  font-size: 20px;
+}
+
+.menu-writing-part input:hover {
+  background-color: bisque;
+  color: #000;
+  font-weight: 500;
+}
+
+.menu-writing-part button {
+  width: 26%;
+  background: #00fff0;
+  font-size: 20px;
+  padding: 15px 0px;
+  margin: 0px 1%;
+  cursor: pointer;
+}
+
+.menu-writing-part button:hover {
+  background: brown;
+  color: #00fff0;
+  transition: ease 0.5s;
+}
+
+/* =============Footer============ */
+#footer {
+  width: 100%;
+  float: left;
+  background: #223047;
+}
+.copyright {
+  width: 50%;
+  float: left;
+}
+
+.copyright h1 {
+  font-size: 26px;
+  color: #fff;
+  margin: 20px 0;
+}
+
+.footer-icon {
+  width: 50%;
+  float: left;
+  margin: 20px 0;
+  text-align: end;
+}
+
+.footer-icon a {
+  font-size: 26px;
+  padding: 10px;
+  color: #fff;
+}
+
+.footer-icon a:hover {
+  color: yellow;
+}
+
+/* Responsive Part */
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+  /* =============Header============ */
+  .logo-part {
+    width: 15%;
+    padding-bottom: 10px;
+  }
+
+  .logo-part a {
+    font-size: 30px;
+  }
+
+  .logo-part sup {
+    font-size: 16px;
+  }
+
+  .menu-part {
+    width: 85%;
+    margin-top: 2px;
+  }
+
+  .menu-part li {
+    padding: 0px 5px;
+  }
+
+  .menu-part li a {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .btn-part {
+    display: none;
+  }
+
+  /* =============Hero============ */
+  .hero-writing-part {
+    width: 100%;
+    float: left;
+    margin-top: -70px;
+  }
+
+  .hero-btn {
+    margin: 50px 0px 50px 70px;
+  }
+
+  .btn-deep,
+  .btn-light {
+    padding: 10px;
+    width: 70%;
+    float: left;
+    margin: 10px 0px;
+    font-size: 14px;
+  }
+
+  .hero-img-part {
+    width: 100%;
+    float: left;
+    text-align: center;
+  }
+
+  .hero-img-part img {
+    margin: 50px 0 -100px;
+    height: 500px;
+  }
+
+  /* =============Feature============ */
+  .feature-writing-part h2 {
+    font-size: 30px;
+  }
+
+  .underline {
+    width: 20%;
+  }
+
+  .feature-box {
+    width: 100%;
+    float: left;
+    margin: 5px 0px;
+  }
+
+  .feature-box img {
+    width: 25%;
+    margin: 5px auto;
+  }
+
+  .feature-box h2 {
+    margin: 5px 0px;
+  }
+
+  .feature-box p {
+    margin: 5px 0px;
+  }
+
+  /* =============Info============ */
+  #info {
+    width: 100%;
+    float: left;
+    margin-top: -40px;
+  }
+
+  .info-color {
+    height: 800px;
+  }
+
+  .info-writing h2 {
+    font-size: 34px;
+    margin: 120px 20px 100px;
+  }
+
+  .info-writing p {
+    font-size: 16px;
+    margin: 20px;
+  }
+
+  /* =============Description============ */
+  .desc-first-part-writing {
+    width: 100%;
+    float: left;
+  }
+
+  .desc-first-part-writing h2 {
+    font-size: 34px;
+    margin: 250px 0px 0px;
+  }
+
+  .desc-first-part-writing p {
+    font-size: 20px;
+    margin: 20px 0px;
+  }
+
+  .desc-first-part button {
+    width: 80%;
+    margin-left: 50px;
+  }
+
+  .desc-first-part-img img {
+    margin: 50px auto;
+    width: 320px;
+    float: left;
+  }
+
+  .desc-second-part-img {
+    width: 100%;
+    float: left;
+  }
+
+  .desc-second-part-img img {
+    position: relative;
+    top: 0;
+    width: 320px;
+    margin: 0px auto;
+  }
+
+  .desc-second-part-writing {
+    width: 100%;
+    float: left;
+    margin-bottom: 50px;
+  }
+
+  .part-one h3,
+  .part-two h3 {
+    font-size: 22px;
+  }
+
+  #part-three h3 {
+    font-size: 18px;
+  }
+
+  #part-four h3 {
+    font-size: 17px;
+  }
+
+  .desc-second-part-writing {
+    width: 100%;
+    float: left;
+  }
+
+  /* =============Description Third Part============ */
+  .desc-third-part-writing {
+    width: 100%;
+    float: left;
+    padding: 60px;
+    margin-top: -80px;
+  }
+
+  .desc-third-part-box {
+    width: 100%;
+    float: left;
+    text-align: center;
+  }
+
+  .container-seven {
+    margin-left: 90px;
+  }
+
+  /* =============Play============ */
+  #play {
+    width: 100%;
+    float: left;
+    margin-top: 0px;
+  }
+
+  .container-six button {
+    background: transparent;
+  }
+  .container-six i {
+    margin-top: 50px;
+  }
+
+  /* =============Join============ */
+  #join h1 {
+    margin-top: -50px;
+    font-size: 40px;
+  }
+
+  /* =============Paragraph============ */
+  #paragraph p {
+    margin: -50px;
+    font-size: 20px;
+  }
+
+  /* =============App============ */
+  .app-row-one-img-part {
+    width: 100%;
+    float: left;
+  }
+
+  .app-row-one-img-part img {
+    width: 70%;
+  }
+
+  .app-row-one-writing-part {
+    width: 100%;
+    float: left;
+    text-align: center;
+  }
+
+  .app-row-one-writing-part h1 {
+    margin-top: 0px;
+  }
+
+  /* =============Menu============ */
+  .menu-part-list {
+    width: 100%;
+    float: left;
+  }
+
+  .menu-part-list h3 {
+    font-size: 30px;
+  }
+
+  .menu-writing-part h1 {
+    margin-top: -50px;
+  }
+
+  .menu-writing-part p {
+    margin-bottom: 20px;
+  }
+
+  .menu-writing-part input {
+    width: 35%;
+    float: left;
+    padding: 12px 0px;
+  }
+  .menu-writing-part button {
+    width: 60%;
+    float: left;
+    font-size: 16px;
+  }
+
+  /* =============Footer============ */
+  .copyright {
+    width: 45%;
+    float: left;
+  }
+
+  .copyright h1 {
+    font-size: 16px;
+    margin-top: 30px;
+  }
+
+  .footer-icon {
+    width: 55%;
+    float: left;
+  }
+
+  .footer-icon a {
+    font-size: 22px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 601px) and (max-width: 768px) {
+  /* =============Header============ */
+  .logo-part {
+    width: 40%;
+    float: left;
+  }
+
+  .menu-part {
+    width: 60%;
+    float: left;
+  }
+
+  .menu-part li {
+    padding: 10px;
+  }
+  .menu-part li a {
+    font-size: 26px;
+  }
+
+  .btn-part {
+    display: none;
+  }
+
+  /* =============Hero============ */
+  .hero-writing-part {
+    width: 50%;
+    float: left;
+  }
+
+  .hero-writing-part h1 {
+    margin-top: 30px;
+    font-size: 35px;
+  }
+
+  .hero-writing-part p {
+    font-size: 20px;
+  }
+
+  .btn-deep,
+  .btn-light {
+    margin: 10px 0;
+  }
+
+  .hero-img-part {
+    width: 50%;
+    float: left;
+    margin-left: -100px;
+  }
+
+  .hero-img-part img {
+    margin: 100px 0px -80px 110px;
+    position: relative;
+  }
+
+  /* =============Feature============ */
+  #feature {
+    width: 100%;
+    float: left;
+  }
+
+  .feature-writing-part h2 {
+    font-size: 40px;
+  }
+
+  #feature-box-one {
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+  }
+
+  #feature-box-two {
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+  }
+
+  #feature-box-three {
+    width: 100%;
+    float: left;
+  }
+
+  #feature-box-four {
+    width: 100%;
+    float: left;
+  }
+
+  /* =============Info============ */
+  #info {
+    width: 100%;
+    float: left;
+  }
+
+  .info-color {
+    width: 50%;
+    float: left;
+    height: 700px;
+  }
+
+  .info-writing h2 {
+    font-size: 35px;
+    margin: 80px 0px 40px 40px;
+  }
+
+  .info-writing p {
+    font-size: 20px;
+    margin-left: 40px;
+  }
+
+  /* =============Description============ */
+  #description {
+    width: 100%;
+    float: left;
+  }
+
+  .desc-first-part-writing {
+    width: 100%;
+    float: left;
+  }
+
+  .desc-first-part-img {
+    width: 100%;
+    float: left;
+    margin-top: -80px;
+  }
+
+  .desc-first-part-img img {
+    width: 500px;
+  }
+
+  .desc-second-part-img {
+    width: 100%;
+    float: left;
+    margin-top: -80px;
+  }
+
+  .desc-second-part-img img {
+    top: 0;
+  }
+
+  .desc-second-part-writing {
+    width: 100%;
+    float: left;
+    margin-bottom: 50px;
+  }
+
+  /* =============Description Third Part============ */
+  .desc-third-part-writing {
+    margin-top: -80px;
+  }
+
+  .container-seven {
+    margin-left: 70px;
+  }
+
+  /* =============Play============ */
+  #play {
+    width: 100%;
+    float: left;
+    margin-top: 0px;
+  }
+
+  .container-six button {
+    background: transparent;
+  }
+  .container-six i {
+    margin-top: 50px;
+  }
+
+  /* =============Join============ */
+  #join {
+    width: 100%;
+    float: left;
+  }
+
+  #join h1 {
+    margin-top: -50px;
+    font-size: 40px;
+  }
+
+  /* =============Paragraph============ */
+  #paragraph p {
+    margin: -50px;
+    font-size: 20px;
+  }
+
+  /* =============App============ */
+  .app-row-one-img-part {
+    width: 100%;
+    float: left;
+    margin-bottom: -100px;
+  }
+
+  .app-row-one-writing-part {
+    width: 100%;
+    float: left;
+    margin-top: -100px;
+    text-align: center;
+  }
+
+  /* =============Menu============ */
+  #menu {
+    width: 100%;
+    float: left;
+  }
+
+  .menu-part-list h3 {
+    font-size: 17px;
+  }
+  .menu-part-list a {
+    font-size: 17px;
+  }
+
+  /* =============Footer============ */
+  .copyright h1 {
+    font-size: 17px;
+    margin-top: 25px;
+  }
+
+  .footer-icon a {
+    font-size: 24px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 769px) and (max-width: 992px) {
+  /* =============Header============ */
+  .logo-part {
+    width: 20%;
+    float: left;
+  }
+
+  .menu-part {
+    width: 50%;
+    float: left;
+  }
+
+  .menu-part li {
+    padding: 10px;
+  }
+
+  .btn-part {
+    width: 30%;
+    float: left;
+    padding-top: 15px;
+  }
+
+  .menu {
+    width: 15%;
+    margin-left: 5px;
+  }
+
+  /* =============Hero============ */
+  .hero-writing-part h1 {
+    margin-top: 100px;
+    font-size: 45px;
+  }
+
+  .hero-img-part img {
+    margin: 100px 0px -70px 5px;
+    height: 660px;
+  }
+
+  .btn-deep,
+  .btn-light {
+    width: 60%;
+    float: left;
+    margin: 0px 10px 20px 0px;
+  }
+
+  /* =============Feature============ */
+  #feature-box-one {
+    width: 45%;
+    float: left;
+    margin-bottom: 10px;
+  }
+
+  #feature-box-two {
+    width: 45%;
+    float: left;
+    margin-bottom: 10px;
+  }
+
+  #feature-box-three {
+    width: 45%;
+    float: left;
+  }
+
+  #feature-box-four {
+    width: 45%;
+    float: left;
+  }
+
+  /* =============Info============ */
+  .info-color {
+    height: 650px;
+    width: 50%;
+    float: left;
+  }
+
+  .info-writing {
+    width: 50%;
+    float: left;
+    padding-right: 10px;
+  }
+
+  .info-writing h2 {
+    font-size: 40px;
+    margin-top: 50px;
+  }
+
+  /* =============Description============ */
+  .desc-first-part-writing {
+    width: 50%;
+    float: left;
+    text-align: end;
+  }
+
+  .desc-first-part-writing button {
+    width: 60%;
+    margin-left: 70px;
+  }
+
+  .desc-first-part-img {
+    width: 50%;
+    float: left;
+  }
+
+  .desc-first-part-img img {
+    margin-top: 200px;
+    width: 370px;
+  }
+
+  .desc-second-part-img {
+    width: 100%;
+    float: left;
+    text-align: center;
+  }
+
+  .desc-second-part-img img {
+    position: relative;
+    top: 0;
+  }
+
+  .desc-second-part-writing {
+    width: 100%;
+    float: left;
+    margin-bottom: 50px;
+  }
+
+  /* =============Description Third Part============ */
+  .desc-third-part-writing {
+    width: 50%;
+    float: left;
+    margin-top: -50px;
+  }
+
+  .desc-third-part-box {
+    width: 50%;
+    float: left;
+  }
+
+  /* =============App============ */
+  .app-row-one-img-part {
+    width: 40%;
+    float: left;
+    margin-left: -50px;
+  }
+
+  .app-row-one-img-part img {
+    width: 320px;
+  }
+
+  .app-row-one-writing-part {
+    width: 50%;
+    float: left;
+    margin: -100px 0px 0px 100px;
+  }
+
+  .app-row-one-writing-part h1 {
+    font-size: 40px;
+  }
+
+  .app-row-one-writing-part p {
+    font-size: 20px;
+  }
+  /* =============Menu============ */
+  .menu-part-one h3{
+    font-size: 20px;
+  }
+
+  /* =============Footer============ */
+  .copyright h1{
+    font-size: 23px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 993px) and (max-width: 1200px) {
+  /* =============Header============ */
+  .logo-part {
+    width: 20%;
+    float: left;
+  }
+
+  .menu-part {
+    width: 50%;
+    float: left;
+  }
+
+  .btn-part {
+    width: 30%;
+    float: left;
+  }
+
+  /* =============Hero============ */
+  .btn-deep,
+  .btn-light {
+    width: 40%;
+  }
+
+  .hero-writing-part h1 {
+    margin-top: 100px;
+  }
+
+  .hero-img-part {
+    width: 50%;
+    float: left;
+    padding: 10px;
+  }
+
+  .hero-img-part img {
+    margin: 100px 0 -80px 100px;
+  }
+
+  /* =============Features============ */
+  #feature-box-one {
+    width: 45%;
+    float: left;
+    margin-bottom: 10px;
+  }
+
+  #feature-box-two {
+    width: 45%;
+    float: left;
+    margin-bottom: 10px;
+  }
+
+  #feature-box-three {
+    width: 45%;
+    float: left;
+  }
+  #feature-box-four {
+    width: 45%;
+    float: left;
+  }
+
+  /* =============Description============ */
+  .desc-first-part-img img {
+    width: 480px;
+  }
+
+  .desc-second-part-img {
+    width: 100%;
+    float: left;
+    text-align: center;
+  }
+
+  .desc-second-part-img img {
+    position: relative;
+    top: 0;
+  }
+
+  .desc-second-part-writing {
+    width: 100%;
+    float: left;
+  }
+}
